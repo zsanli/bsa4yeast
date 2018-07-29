@@ -14,17 +14,20 @@ This is the pipeline code in bsa4yeast.lcsb.uni.lu.
 * [scripts](./scripts)
 
 ### map
+:: run with map file
 -----------
 ```Bash
 
 ```
 ### bam
+:: run with bam file
 -----------
 ```Bash
 
 ```
 
 ### fastq
+:: run with fastq file
 -----------
 ```Bash
 
