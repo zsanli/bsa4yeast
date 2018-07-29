@@ -23,7 +23,7 @@ run with map file
 -----------
 run with bam file
 ```Bash
-
+samtools mpileup -P ILLUMINA  -f  sc64.fa sake_strain_P1.bam white_tecc_strain_P2.bam Bulk_H.bam Bulk_L.bam > myresult.mpileup
 ```
 
 ### fastq
