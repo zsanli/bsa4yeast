@@ -17,8 +17,15 @@ This is the pipeline code in bsa4yeast.lcsb.uni.lu.
 -----------
 run with map file
 ```Bash
-
+python2.7 bsacalc.py -L myresult.LMap -H myresult.HMap -w 33750 -k tricube -o myresult.G
+python2.7 bsapeak.py myresult.G . myresult
+python2.7 bsadraw.py -g myresult.G -c sc_chr.length --ylim 0 30  -o myresult.pdf --noraw --threshold 4 -n 0
+paste myresult.HMap | awk '{ s=$3;p=$4; for(i=2; i<=NF/4; i+=1) {s+=$i*4-1;p+=$i*4}; print $1,$2, s,p }'|awk '{if ($3+$4==0)print $1,$2,$3/($3+$4+1);else print $1,$2,$3/($3+$4);}' > myresult_Hmap_freq.txt
+paste myresult.LMap | awk '{ s=$3;p=$4; for(i=2; i<=NF/4; i+=1) {s+=$i*4-1;p+=$i*4}; print $1,$2, s,p }'|awk '{if ($3+$4==0)print $1,$2,$3/($3+$4+1);else print $1,$2,$3/($3+$4);}' > myresult_Lmap_freq.txt
+paste myresult_Hmap_freq.txt  myresult_Lmap_freq.txt  |awk '{print $1,$2,$3-$6}' > myresult_freq.txt
+Rscript --vanilla freq_diff.r myresult_freq.txt myresult_freq.pdf
 ```
+
 ### bam
 -----------
 run with bam file
