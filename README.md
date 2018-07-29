@@ -29,4 +29,4 @@ This is the pipeline code in bsa4yeast.lcsb.uni.lu.
 
 |语法|效果|
 |----|-----|
-|`[example](./example)`|[example](./example)|
+|`[example](./scripts)`|[example](./scripts)|
