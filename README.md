@@ -11,6 +11,7 @@ This is the pipeline code in bsa4yeast.lcsb.uni.lu.
 * [run with map file](#map)
 * [run with bam file](#bam)
 * [run with fastq file](#fastq)
+* `[scripts](./scripts)`
 
 ### map
 -----------
