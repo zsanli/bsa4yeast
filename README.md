@@ -8,17 +8,17 @@ This is the pipeline code in bsa4yeast.lcsb.uni.lu.
 
 ****
 ## Table of Contents
-* [run with map file](#run with map file)
-* [run with bam file](#run with bam file)
-* [run with fastq file](#run with fastq file)
+* [run with map file](#map)
+* [run with bam file](#bam)
+* [run with fastq file](#fastq)
 
-### run with map file
+### map
 -----------
 
 
-### run with bam file
+### bam
 -----------
 
 
-### run with fastq file
+### fastq
 -----------
