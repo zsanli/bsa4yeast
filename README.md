@@ -23,3 +23,10 @@ This is the pipeline code in bsa4yeast.lcsb.uni.lu.
 
 ### fastq
 -----------
+
+### 链接本仓库里的URL
+-----------
+
+|语法|效果|
+|----|-----|
+|`[example](./example)`|[example](./example)|
