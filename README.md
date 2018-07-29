@@ -12,13 +12,13 @@ This is the pipeline code in bsa4yeast.lcsb.uni.lu.
 * [run with bam file](#bam)
 * [run with fastq file](#fastq)
 
-### map
+### run with map file
 -----------
 
 
-bam
+### run with bam file
 -----------
 
 
-fastq
+### run with fastq file
 -----------
