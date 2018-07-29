@@ -7,7 +7,18 @@ This is the pipeline code in bsa4yeast.lcsb.uni.lu.
 |E-mail|zhi.zhang@uni.lu
 
 ****
-## Categary
+## Table of Contents
 * [run with map file](#map)
 * [run with bam file](#bam)
 * [run with fastq file](#fastq)
+
+### map
+-----------
+
+
+bam
+-----------
+
+
+fastq
+-----------
