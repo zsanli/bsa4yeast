@@ -15,18 +15,18 @@ This is the pipeline code in bsa4yeast.lcsb.uni.lu.
 
 ### map
 -----------
+```Bash
 
-
+```
 ### bam
 -----------
+```Bash
 
+```
 
 ### fastq
 -----------
+```Bash
 
-### 链接本仓库里的URL
------------
+```
 
-|语法|效果|
-|----|-----|
-|`[example](./scripts)`|[example](./scripts)|
